@@ -1,47 +1,14 @@
 body {
-  padding-left: 10%;
-  padding-right: 10%;
-  margin: 0 !important;
   border: 0;
   outline: 0;
-  background-color: #ebeef1;
   font-size: 100%;
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 /****** Navigation **********/
-ul {
-  width: 100%;
-  height: 50px;
-  background-color: #2986e6;
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
+header {
+  background-color: #bbb;
 }
-li {
-  display: inline-block;
-  float: left;
-  padding: 15px;
-  line-height: 20px;
-}
-a {
-  width: 100%;
-  height: 100%;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-  padding: 0 10px;
-  text-decoration: none;
+.nav li a {
+  color: #000;
   text-transform: uppercase;
-}
-#first {
-  margin: 40px;
-  line-height: 20px;
-}
-/********** Typography **********/
-h1 {
-  font-size: 1.4em;
-  text-transform: uppercase;
-}
-h2 {
-  font-size: 1.2em;
 }

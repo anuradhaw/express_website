@@ -3,13 +3,21 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    meta(name="viewport", content="width=device-width, initial-scale=1")
   body
-   header
-      nav
-        ul
+   .container-fluid
+    header.row
+      .col-md-2
+      .col-md-8
+        .nav.nav-pills
           li 
             a(href="/") Home
           li 
             a(href="/about") About
-    section#first
-      block content	 
+      .col-md-2
+    section.row
+      .col-md-2
+      .col-md-8
+        block content
+      .col-md-2 
