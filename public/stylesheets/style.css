@@ -30,3 +30,7 @@ header {
 .well {
   margin: 30px;
 }
+/******** Footer **********/
+.navbar-fixed-bottom {
+  padding-left: 20px;
+}
